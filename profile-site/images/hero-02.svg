@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Hero Image 02</title>
+  <desc id="desc">自然をテーマにした川と丘の画像</desc>
+  <rect width="640" height="420" fill="#e8f5ec"/>
+  <path d="M0 188c70-58 132-72 204-42 62 26 110 28 176-14 78-50 160-54 260-10v298H0z" fill="#c9e4ce"/>
+  <path d="M0 260c94-46 168-42 238-8 78 38 142 34 220-16 64-40 118-46 182-26v210H0z" fill="#78ad82"/>
+  <path d="M250 420c-32-72-28-136 12-194 28-42 32-76 14-120h96c-14 54-2 94 32 132 42 46 50 104 28 182z" fill="#d9efe5"/>
+  <path d="M290 420c-20-58-10-102 30-136 34-30 46-62 34-100" fill="none" stroke="#6ba7a5" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="116" cy="96" r="38" fill="#d7a34b" opacity=".55"/>
+  <path d="M430 136l38-76 38 76z" fill="#2f7d4f"/>
+  <path d="M398 174l70-120 70 120z" fill="#1f5b39"/>
+  <rect x="460" y="160" width="16" height="44" rx="5" fill="#8d6d46"/>
+  <rect x="88" y="286" width="138" height="18" rx="9" fill="#ffffff" opacity=".72"/>
+  <rect x="414" y="302" width="112" height="18" rx="9" fill="#ffffff" opacity=".72"/>
+</svg>

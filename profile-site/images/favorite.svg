@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Favorite Image</title>
+  <desc id="desc">好きなものカードを表す自然モチーフの画像</desc>
+  <rect width="640" height="420" fill="#e8f5ec"/>
+  <path d="M0 310c84-54 158-60 238-22 84 40 142 36 226-16 64-40 118-42 176-16v164H0z" fill="#84b98f"/>
+  <rect x="104" y="118" width="124" height="172" rx="16" fill="#ffffff" stroke="#d7e4dc" stroke-width="2"/>
+  <rect x="258" y="82" width="124" height="208" rx="16" fill="#ffffff" stroke="#d7e4dc" stroke-width="2"/>
+  <rect x="412" y="118" width="124" height="172" rx="16" fill="#ffffff" stroke="#d7e4dc" stroke-width="2"/>
+  <path d="M146 174c24-6 42-22 52-48 20 18 24 42 12 70-24 4-44-4-64-22z" fill="#2f7d4f"/>
+  <path d="M302 144c28-7 48-26 60-56 24 22 28 50 14 82-28 5-52-4-74-26z" fill="#2f7d4f"/>
+  <path d="M454 174c24-6 42-22 52-48 20 18 24 42 12 70-24 4-44-4-64-22z" fill="#2f7d4f"/>
+  <rect x="132" y="236" width="68" height="12" rx="6" fill="#c9dace"/>
+  <rect x="286" y="236" width="68" height="12" rx="6" fill="#c9dace"/>
+  <rect x="440" y="236" width="68" height="12" rx="6" fill="#c9dace"/>
+</svg>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorite | Profile Site</title>
+  <meta name="description" content="あとから編集できる好きなもの紹介ページです。">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="index.html">Profile Site</a>
+      <button class="menu-button" type="button" aria-controls="global-nav" aria-expanded="false" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="global-nav" class="global-nav" aria-label="グローバルナビゲーション">
+        <ul class="global-nav__list">
+          <li><a href="index.html">TOP</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="favorite.html" aria-current="page">Favorite</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" data-fade>
+      <div class="container page-hero__layout">
+        <div>
+          <p class="section-label">Favorite</p>
+          <h1>好きなもの</h1>
+          <p>ここに好きなものを入力。好きなものや趣味をあとから編集できるカード形式でまとめています。</p>
+        </div>
+        <img class="page-hero__image" src="images/favorite.svg" alt="好きなもの紹介用の自然モチーフ画像">
+      </div>
+    </section>
+
+    <section class="section" data-fade>
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Favorite Cards</p>
+          <h2>好きなもの一覧</h2>
+          <p>ここに好きなものを入力。内容はあとから自由に差し替えできます。</p>
+        </div>
+        <div class="card-grid card-grid--favorite">
+          <article class="favorite-card">
+            <span class="favorite-card__number">01</span>
+            <h3>Favorite 01</h3>
+            <p>ゲーム</p>
+          </article>
+          <article class="favorite-card">
+            <span class="favorite-card__number">02</span>
+            <h3>Favorite 02</h3>
+            <p>釣り</p>
+          </article>
+          <article class="favorite-card">
+            <span class="favorite-card__number">03</span>
+            <h3>Favorite 03</h3>
+            <p>愛犬を撫でる</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>&copy; 2026 Profile Site.</p>
+      <p>ここにフッターテキストを入力</p>
+    </div>
+  </footer>
+
+  <button class="page-top" type="button" aria-label="ページ上部へ戻る">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

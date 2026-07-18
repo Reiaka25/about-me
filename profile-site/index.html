@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOP | Profile Site</title>
+  <meta name="description" content="あとから編集できる自己紹介プロフィールサイトです。">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="index.html">Profile Site</a>
+      <button class="menu-button" type="button" aria-controls="global-nav" aria-expanded="false" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="global-nav" class="global-nav" aria-label="グローバルナビゲーション">
+        <ul class="global-nav__list">
+          <li><a href="index.html" aria-current="page">TOP</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="favorite.html">Favorite</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" data-fade>
+      <div class="container hero__layout">
+        <div class="hero__text">
+          <p class="section-label">Welcome</p>
+          <h1>山田 玲</h1>
+          <p>ここに自己紹介文を入力。プロフィールサイト全体の入口として、短い紹介文をあとから編集できるようにしています。</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="about.html">About</a>
+            <a class="button button--secondary" href="contact.html">Contact</a>
+          </div>
+        </div>
+
+        <section class="slider" data-slider aria-label="自然をテーマにした画像スライダー">
+          <div class="slider__viewport">
+            <div class="slider__track" data-slider-track>
+              <figure class="slider__slide">
+                <img src="images/hero-01.svg" alt="自然をイメージした仮画像1">
+                <figcaption>ここに画像の雰囲気を入力</figcaption>
+              </figure>
+              <figure class="slider__slide">
+                <img src="images/hero-02.svg" alt="自然をイメージした仮画像2">
+                <figcaption>ここに画像の雰囲気を入力</figcaption>
+              </figure>
+              <figure class="slider__slide">
+                <img src="images/hero-03.svg" alt="自然をイメージした仮画像3">
+                <figcaption>ここに画像の雰囲気を入力</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="slider__controls">
+            <button class="slider__button" type="button" data-slider-prev aria-label="前の画像へ">‹</button>
+            <div class="slider__dots" data-slider-dots aria-label="スライダー位置"></div>
+            <button class="slider__button" type="button" data-slider-next aria-label="次の画像へ">›</button>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section" data-fade>
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Profile</p>
+          <h2>自己紹介の概要</h2>
+          <p>ここに自己紹介文を入力。表示名、所属、目標、強みなどをあとから編集できます。</p>
+        </div>
+        <div class="summary-grid">
+          <article class="summary-card">
+            <h3>名前</h3>
+            <p>山田 玲</p>
+          </article>
+          <article class="summary-card">
+            <h3>専攻・所属</h3>
+            <p>スーパーITエンジニア</p>
+          </article>
+          <article class="summary-card">
+            <h3>サイトの雰囲気</h3>
+            <p>自然をイメージ！</p>
+          </article>
+          <article class="summary-card">
+            <h3>メインカラー</h3>
+            <p>ここにメインカラーを入力</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft" data-fade>
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Navigation</p>
+          <h2>ページ案内</h2>
+          <p>各ページここから飛べます！</p>
+        </div>
+        <div class="link-card-grid">
+          <a class="link-card" href="about.html">
+            <span>About</span>
+            <p>自己紹介</p>
+          </a>
+          <a class="link-card" href="skills.html">
+            <span>Skills</span>
+            <p>スキル紹介</p>
+          </a>
+          <a class="link-card" href="favorite.html">
+            <span>Favorite</span>
+            <p>好きなもの</p>
+          </a>
+          <a class="link-card" href="contact.html">
+            <span>Contact</span>
+            <p>お問い合わせ</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>&copy; 2026 Profile Site.</p>
+      <p>ここにフッターテキストを入力</p>
+    </div>
+  </footer>
+
+  <button class="page-top" type="button" aria-label="ページ上部へ戻る">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

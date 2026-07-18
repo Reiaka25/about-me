@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Contact Image</title>
+  <desc id="desc">お問い合わせフォームを表す自然モチーフの画像</desc>
+  <rect width="640" height="420" fill="#f6faf7"/>
+  <circle cx="112" cy="314" r="58" fill="#2f7d4f" opacity=".16"/>
+  <circle cx="528" cy="92" r="58" fill="#d7a34b" opacity=".22"/>
+  <rect x="118" y="92" width="404" height="236" rx="22" fill="#ffffff" stroke="#d7e4dc" stroke-width="2"/>
+  <path d="M142 130l178 112 178-112" fill="none" stroke="#2f7d4f" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M144 290l120-88m232 88l-120-88" fill="none" stroke="#84b98f" stroke-width="12" stroke-linecap="round"/>
+  <rect x="208" y="270" width="224" height="16" rx="8" fill="#c9dace"/>
+  <rect x="246" y="300" width="148" height="12" rx="6" fill="#d7a34b"/>
+</svg>

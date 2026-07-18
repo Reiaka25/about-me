@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Profile Site</title>
+  <meta name="description" content="送信機能のないお問い合わせフォームページです。">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="index.html">Profile Site</a>
+      <button class="menu-button" type="button" aria-controls="global-nav" aria-expanded="false" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="global-nav" class="global-nav" aria-label="グローバルナビゲーション">
+        <ul class="global-nav__list">
+          <li><a href="index.html">TOP</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="favorite.html">Favorite</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" data-fade>
+      <div class="container page-hero__layout">
+        <div>
+          <p class="section-label">Contact</p>
+          <h1>お問い合わせ</h1>
+          <p>ここにお問い合わせ案内を入力。フォームには送信機能がなく、入力チェックのみ実装しています。</p>
+        </div>
+        <img class="page-hero__image" src="images/contact.svg" alt="お問い合わせ用の自然モチーフ画像">
+      </div>
+    </section>
+
+    <section class="section" data-fade>
+      <div class="container contact-layout">
+        <aside class="contact-info">
+          <p class="section-label">Mail</p>
+          <h2>表示用メールアドレス</h2>
+          <p class="contact-info__mail">example@example.com</p>
+          <p>ここに補足説明を入力。公開前に表示内容を確認してください。</p>
+        </aside>
+
+        <form class="contact-form" action="#" method="post" data-contact-form novalidate>
+          <div class="form-field">
+            <label for="name">名前</label>
+            <input id="name" name="name" type="text" placeholder="ここに名前を入力" data-required>
+            <p class="form-error" data-error-for="name" aria-live="polite"></p>
+          </div>
+          <div class="form-field">
+            <label for="email">メールアドレス</label>
+            <input id="email" name="email" type="email" placeholder="example@example.com" data-required>
+            <p class="form-error" data-error-for="email" aria-live="polite"></p>
+          </div>
+          <div class="form-field">
+            <label for="subject">件名</label>
+            <input id="subject" name="subject" type="text" placeholder="ここに件名を入力" data-required>
+            <p class="form-error" data-error-for="subject" aria-live="polite"></p>
+          </div>
+          <div class="form-field">
+            <label for="message">内容</label>
+            <textarea id="message" name="message" rows="7" placeholder="ここに内容を入力" data-required></textarea>
+            <p class="form-error" data-error-for="message" aria-live="polite"></p>
+          </div>
+          <button class="button button--primary contact-form__button" type="submit">入力内容を確認</button>
+          <p class="form-status" data-form-status aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>&copy; 2026 Profile Site.</p>
+      <p>ここにフッターテキストを入力</p>
+    </div>
+  </footer>
+
+  <button class="page-top" type="button" aria-label="ページ上部へ戻る">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Hero Image 03</title>
+  <desc id="desc">自然をテーマにした葉とカードの画像</desc>
+  <rect width="640" height="420" fill="#f6faf7"/>
+  <circle cx="504" cy="98" r="72" fill="#d7a34b" opacity=".26"/>
+  <circle cx="116" cy="318" r="78" fill="#2f7d4f" opacity=".14"/>
+  <rect x="106" y="86" width="428" height="248" rx="22" fill="#ffffff" stroke="#d7e4dc" stroke-width="2"/>
+  <path d="M192 250c72-10 116-52 132-128 58 52 70 118 38 198-62 8-116-14-170-70z" fill="#2f7d4f" opacity=".88"/>
+  <path d="M220 250c42-34 76-74 102-122" fill="none" stroke="#e8f5ec" stroke-width="9" stroke-linecap="round"/>
+  <path d="M342 172c48-12 78-42 92-90 36 34 44 78 22 128-40 6-78-8-114-38z" fill="#84b98f"/>
+  <path d="M364 172c28-24 50-52 68-86" fill="none" stroke="#e8f5ec" stroke-width="7" stroke-linecap="round"/>
+  <rect x="178" y="286" width="104" height="14" rx="7" fill="#b8cfc0"/>
+  <rect x="304" y="286" width="160" height="14" rx="7" fill="#d7e4dc"/>
+  <rect x="304" y="312" width="112" height="14" rx="7" fill="#d7e4dc"/>
+</svg>

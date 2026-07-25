@@ -329,7 +329,9 @@ body {
 .link-card-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
-
+.summary-grid{
+  grid-template-columns: repeat(3, minmax(0,1fr));
+}
 .summary-card,
 .link-card,
 .skill-card,

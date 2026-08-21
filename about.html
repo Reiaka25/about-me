@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Profile Site</title>
+  <meta name="description" content="あとから編集できる自己紹介ページです。">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="index.html">Profile Site</a>
+      <button class="menu-button" type="button" aria-controls="global-nav" aria-expanded="false" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="global-nav" class="global-nav" aria-label="グローバルナビゲーション">
+        <ul class="global-nav__list">
+          <li><a href="index.html">TOP</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="favorite.html">Favorite</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" data-fade>
+      <div class="container page-hero__layout">
+        <div>
+          <p class="section-label">About</p>
+          <h1>山田 玲</h1>
+          <p>働かず暮らしたい</p>
+        </div>
+        <img class="page-hero__image" src="images/about.jpg" alt="プロフィール用の画像">
+      </div>
+    </section>
+
+    <section class="section" data-fade>
+      <div class="container about-layout">
+        <div class="section-heading">
+          <p class="section-label">Introduction</p>
+          <h2>プロフィール</h2>
+          <p>働かず暮らしたい</p>
+        </div>
+        <dl class="profile-list">
+          <div>
+            <dt>名前</dt>
+            <dd>山田 玲</dd>
+          </div>
+          <div>
+            <dt>所属・専攻</dt>
+            <dd>スーパーITエンジニア</dd>
+          </div>
+          <div>
+            <dt>自己紹介文</dt>
+            <dd>よろしく！</dd>
+          </div>
+          <div>
+            <dt>将来の目標</dt>
+            <dd>不労所得で暮らすこと</dd>
+          </div>
+          <div>
+            <dt>強み</dt>
+            <dd>人のことの方が頑張れる</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>&copy; 2026 Profile Site.</p>
+      <p>Thank you for visiting my website.</p>
+    </div>
+  </footer>
+
+  <button class="page-top" type="button" aria-label="ページ上部へ戻る">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

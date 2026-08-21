@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills | Profile Site</title>
+  <meta name="description" content="あとから編集できるスキル紹介ページです。">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="index.html">Profile Site</a>
+      <button class="menu-button" type="button" aria-controls="global-nav" aria-expanded="false" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="global-nav" class="global-nav" aria-label="グローバルナビゲーション">
+        <ul class="global-nav__list">
+          <li><a href="index.html">TOP</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html" aria-current="page">Skills</a></li>
+          <li><a href="favorite.html">Favorite</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" data-fade>
+      <div class="container page-hero__layout">
+        <div>
+          <p class="section-label">Skills</p>
+          <h1>私のスキル</h1>
+          <p></p>
+        </div>
+        <img class="page-hero__image" src="images/skills.svg" alt="スキル紹介用の自然モチーフ画像">
+      </div>
+    </section>
+
+    <section class="section" data-fade>
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Skill Cards</p>
+          <h2>スキル一覧</h2>
+        </div>
+        <div class="card-grid card-grid--skills">
+          <article class="skill-card">
+            <p class="card-label">Skill 01</p>
+            <h3>接客</h3>
+            <p>２年半唐揚げのバイトで働いてる！</p>
+            <div class="skill-bar" aria-label="習熟度">
+              <span style="width: 70%;"></span>
+            </div>
+            <p class="skill-card__level">70%</p>
+          </article>
+          <article class="skill-card">
+            <p class="card-label">Skill 02</p>
+            <h3>運動</h3>
+            <p>最近運動しないけど、小学生の時は得意だった</p>
+            <div class="skill-bar" aria-label="習熟度">
+              <span style="width: 50%;"></span>
+            </div>
+            <p class="skill-card__level">50%</p>
+          </article>
+          <article class="skill-card">
+            <p class="card-label">Skill 03</p>
+            <h3>寝坊しない</h3>
+            <p>基本アラームが鳴る前には起きられる</p>
+            <div class="skill-bar" aria-label="習熟度">
+              <span style="width: 99%;"></span>
+            </div>
+            <p class="skill-card__level">99%</p>
+          </article>
+          <article class="skill-card">
+            <p class="card-label">Qualification01</p>
+            <h3>運転免許</h3>
+            <p>最近仮免許取りました！</p>
+            <div class="skill-bar" aria-label="習熟度">
+              <span style="width: 50%;"></span>
+            </div>
+            <p class="skill-card__level">50%</p>  
+          </article>
+          <article class="skill-card">
+            <p class="card-label">Qualification02</p>
+            <h3>MOS Excel</h3>
+            <p>PowerPointとWordも取りたい！</p>
+            <div class="skill-bar" aria-label="習熟度">
+              <span style="width: 33%;"></span>
+            </div>
+            <p class="skill-card__level">33%</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>&copy; 2026 Profile Site.</p>
+      <p>Thank you for visiting my website.</p>
+    </div>
+  </footer>
+
+  <button class="page-top" type="button" aria-label="ページ上部へ戻る">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

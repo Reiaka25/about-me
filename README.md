@@ -1,7 +1,7 @@
 
 # About Me
 
-サイトURL: http://127.0.0.1:5501/profile-site/index.html
+サイトURL: https://reiaka25.github.io/about-me/
 
 # 課題の紹介
 
